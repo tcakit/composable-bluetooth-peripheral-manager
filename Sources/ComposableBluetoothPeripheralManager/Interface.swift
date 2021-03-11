@@ -63,7 +63,7 @@ public struct PeripheralManager {
         destroy(id)
     }
 
-    public func addPeriphal(id: AnyHashable, peripheral: CBPeripheral, services: [CBUUID]?) -> Effect<Never, Never> {
+    public func addPeripheral(id: AnyHashable, peripheral: CBPeripheral, services: [CBUUID]?) -> Effect<Never, Never> {
         addPeripheral(id, peripheral, services)
     }
 }
